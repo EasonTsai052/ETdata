@@ -37,4 +37,16 @@ main{
             ["log.txt"]
         }
     }
+    [1.0.5]>{
+        [add]files{
+            zerojudge>[
+                "[err]637.cpp"
+            ]
+        },
+        [del]files{
+            zerojudge>[
+                "[test]640.cpp"
+            ]
+        }
+    }
 }
