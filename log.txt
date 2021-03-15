@@ -1,3 +1,23 @@
+log write{
+    [ver][data]>{
+        [add][file.name]
+        [del][file.name]
+        [edt][file.name]>{
+            [add]>{
+                "add something",
+                "add something"
+            }
+            [del]>{
+                "del something",
+                "del something"
+            }
+            [edt]>{
+                "edt something",
+                "edt something"
+            }
+        }
+    }
+}
 main{
     [1.0.0]>{
         [add]files{
@@ -66,6 +86,13 @@ main{
             zerojudge>[
                 "f637.cpp"
             ]
+        }
+    }
+    [2.0.0.2][2021/0315/19:33]{
+        [edt][log.txt]>{
+            [add]>{
+                "rules"
+            }
         }
     }
 }
