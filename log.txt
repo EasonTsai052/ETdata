@@ -56,4 +56,16 @@ main{
             ]
         }
     }
+    [2.0.0][2021/0314/22:35]>{
+        [ren]files{
+            zerojudge>[
+                "[err]f637.cpp">"f637.cpp"
+            ]
+        }
+        [edt]files{
+            zerojudge>[
+                "f637.cpp"
+            ]
+        }
+    }
 }
