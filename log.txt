@@ -1,8 +1,8 @@
 log write{
-    [ver][data]>{
-        [add][file.name]
-        [del][file.name]
-        [edt][file.name]>{
+    [current branch][ver][data]>{
+        [add][file]>["file.name"]
+        [del][file]>["file.name"]
+        [edt][file]["file.name"]>{
             [add]>{
                 "add something",
                 "add something"
@@ -14,6 +14,13 @@ log write{
             [edt]>{
                 "edt something",
                 "edt something"
+            }
+        }
+    }
+    [current branch][ver][data]>{
+        [add][current branch]["name"]{
+            [current branch][ver][data]>{
+                (......)
             }
         }
     }
@@ -92,6 +99,13 @@ main{
         [edt][log.txt]>{
             [add]>{
                 "rules"
+            }
+        }
+    }
+    [main][3.0.0][2021/0327/10:51]>{
+        [edt][file]["log.txt"]>{
+            [edt]>{
+                "add write rule"
             }
         }
     }
