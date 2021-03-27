@@ -120,4 +120,5 @@ log write{
             [add][file]["hi.txt"]
         }
     }
+    [main[3.0.1.1]]<[current_branch_add_show][4.0.0][2021/0327/11:24]
 }
