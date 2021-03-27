@@ -115,4 +115,10 @@ log write{
             }
         }
     }
+    [current_branch_add_show]>{
+        [main[3.0.1]/current_branch_add_show][1.0.0][2021/03/27]{
+            [add][file]["hi.txt"]
+        }
+    }
+    [main[3.0.1.1]]<[current_branch_add_show][4.0.0][2021/0327/11:24]
 }

@@ -8,7 +8,8 @@
         [cb[var]/current branch][ver][data],
         [cb[var]/current branch][ver][data],
         [cb[var]/current branch][ver][data]
-    }
+    },
+    [cb[var]]<[current branch][ver][data]
 }
 [main]>{
     [main][1.0.0][2021/0314],
@@ -22,5 +23,9 @@
     [main][2.0.0.1][2021/0315],
     [main][2.0.0.2][2021/0315/19:33],
     [main][3.0.0][2021/0327/10:51],
-    [main][3.0.1][2021/0327/10:51]
+    [main][3.0.1][2021/0327/10:51],
+    [current_branch_add_show]>{
+        [main[3.0.1.1]/current_branch_add_show][1.0.0][2021/03/27]
+    },
+    [main[3.0.1.1]]<[current_branch_add_show][4.0.0][2021/0327/11:24]
 }
