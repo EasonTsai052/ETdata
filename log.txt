@@ -17,15 +17,13 @@ log write{
             }
         }
     }
-    [current branch][ver][data]>{
-        [add][current branch]["name"]{
-            [current branch][ver][data]>{
-                (......)
-            }
+    [current branch]{
+        [current branch][ver][data]>{
+            (......)
         }
     }
 }
-main{
+[main]{
     [1.0.0]>{
         [add]files{
             >sample_code\
@@ -106,6 +104,14 @@ main{
         [edt][file]["log.txt"]>{
             [edt]>{
                 "add write rule"
+            }
+        }
+    }
+    [main][3.0.1][2021/0327/10:51]>{
+        [add][file]["current branch.txt"],
+        [edt][file]["current branch.txt"]>{
+            [add]>{
+                "current branch history"
             }
         }
     }

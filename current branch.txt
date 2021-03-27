@@ -1,0 +1,26 @@
+[write]>{
+    [current branch][ver][data],
+    [current branch][ver][data],
+    [current branch][ver][data],
+    [current branch][ver][data],
+    [current branch]>{
+        [cb[var]/current branch][ver][data],
+        [cb[var]/current branch][ver][data],
+        [cb[var]/current branch][ver][data],
+        [cb[var]/current branch][ver][data]
+    }
+}
+[main]>{
+    [main][1.0.0][2021/0314],
+    [main][1.0.1][2021/0314],
+    [main][1.0.2][2021/0314],
+    [main][1.0.3][2021/0314],
+    [main][1.0.4][2021/0314],
+    [main][1.0.5][2021/0314],
+    [main][1.0.6][2021/0314/21:22],
+    [main][2.0.0][2021/0314/22:35],
+    [main][2.0.0.1][2021/0315],
+    [main][2.0.0.2][2021/0315/19:33],
+    [main][3.0.0][2021/0327/10:51],
+    [main][3.0.1][2021/0327/10:51]
+}
